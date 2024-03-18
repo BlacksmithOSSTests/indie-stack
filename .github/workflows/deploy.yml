@@ -106,9 +106,9 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: npm run start:mocks
-          wait-on: http://localhost:8811
+          wait-on: http://localhost:8080
         env:
-          PORT: 8811
+          PORT: 8080
 
   deploy:
     name: 🚀 Deploy
